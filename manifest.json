@@ -1,0 +1,10 @@
+{
+    "display_name": "생성 정보 · Generation Info",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "keepsanity",
+    "version": "1.0.0"
+}

@@ -1,0 +1,25 @@
+.mes[is_user="true"] .generation-info-button,
+.mes[is_system="true"] .generation-info-button {
+    display: none;
+}
+
+.generation-info-details {
+    text-align: left;
+}
+
+.generation-info-details dl {
+    display: grid;
+    grid-template-columns: 4.5em minmax(0, 1fr);
+    gap: 0.65em 1em;
+    padding: 0.8em 0;
+}
+
+.generation-info-details dt {
+    opacity: 0.7;
+}
+
+.generation-info-details dd {
+    margin: 0;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
