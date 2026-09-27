@@ -17,7 +17,7 @@ function createButton() {
     button.setAttribute('role', 'button');
     button.tabIndex = 0;
     button.className = `mes_button ${BUTTON_CLASS} fa-solid fa-circle-info`;
-    button.title = '생성 정보 · 모델 / API / 프리셋';
+    button.title = 'Trace · 모델 / API / 프리셋';
     button.setAttribute('aria-label', button.title);
     return button;
 }
@@ -51,7 +51,7 @@ function showInfo(messageId) {
         }
         content.append(list);
     });
-    void getContext().Popup.show.text('생성 정보', content.outerHTML);
+    void getContext().Popup.show.text('Trace', content.outerHTML);
 }
 
 eventSource.on(eventTypes.GENERATION_STARTED, recorder.start);
