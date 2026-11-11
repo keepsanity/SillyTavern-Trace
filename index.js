@@ -31,7 +31,8 @@ function addButtons() {
 
 function showInfo(messageId) {
     const message = getContext().chat[messageId];
-    if (!message || message.is_user || message.is_system) return;
+    // Hidden messages are is_system too, so don't filter on it here.
+    if (!message || message.is_user) return;
     const content = document.createElement('div');
     content.className = 'generation-info-details';
     const records = getRecords(message);
