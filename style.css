@@ -1,5 +1,5 @@
 .mes[is_user="true"] .generation-info-button,
-.mes[is_system="true"] .generation-info-button {
+.mes[ch_name="SillyTavern System"] .generation-info-button {
     display: none;
 }
 
